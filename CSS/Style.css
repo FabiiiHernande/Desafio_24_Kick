@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #9e9efd;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.box{
+    margin: auto;
+    width: max-content;
+    padding: 25px;
+    background-color: #98f591;
+    border-radius: 10px;
+}
+
+#celsius{
+    width: 300px;
+}
+
+#temperatura{
+    width: 50px;
+}
+
+.btt{
+    padding: 30px;
+    padding-left: 160px;
+    
+    
+}

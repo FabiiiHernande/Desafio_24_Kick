@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <script src="JS/conver.js" defer></script>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="box">
+
+            <h1>Conversor de Temperaturas</h1>
+
+            <input type="number" placeholder="Digite a temperatura em graus Celsius (ºC)" id="celsius">
+
+                <select id="conversao">
+
+                    <option value="kelvin">Kelvin</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+        
+                </select>
+
+        
+
+            <div class="btt">
+
+                <input type="submit" value="Converter" onclick="conversor()">
+
+            </div>
+
+            <div id="resultado"></div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
